@@ -11,7 +11,7 @@ class Program
         string subscriptionId = "c209d918-83a8-4826-b663-2921b940c0fa";
         string resourceGroupName = "my-sdk-example-rg";
         string storageAccountName = "sdk-storage-example1234";
-        string region = "centralindia";  // e.g., "westus"
+        string region = "westus";  // e.g., "westus"
 
         // First, initialize the ArmClient and get the default subscription
         ArmClient client = new ArmClient(new DefaultAzureCredential());
